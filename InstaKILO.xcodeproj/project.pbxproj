@@ -13,6 +13,9 @@
 		30E3F9CB1F16BBD200933367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E3F9C91F16BBD200933367 /* Main.storyboard */; };
 		30E3F9CD1F16BBD200933367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E3F9CC1F16BBD200933367 /* Assets.xcassets */; };
 		30E3F9D01F16BBD200933367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E3F9CE1F16BBD200933367 /* LaunchScreen.storyboard */; };
+		30E3F9D91F16BD6A00933367 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E3F9D81F16BD6900933367 /* DetailViewController.m */; };
+		30E3F9DC1F16BDD000933367 /* FotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E3F9DB1F16BDD000933367 /* FotoViewCell.m */; };
+		30E3F9DF1F16BDE800933367 /* Foto.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E3F9DE1F16BDE800933367 /* Foto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		30E3F9CC1F16BBD200933367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30E3F9CF1F16BBD200933367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30E3F9D11F16BBD200933367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E3F9D71F16BD6900933367 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		30E3F9D81F16BD6900933367 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		30E3F9DA1F16BDD000933367 /* FotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoViewCell.h; sourceTree = "<group>"; };
+		30E3F9DB1F16BDD000933367 /* FotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoViewCell.m; sourceTree = "<group>"; };
+		30E3F9DD1F16BDE800933367 /* Foto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foto.h; sourceTree = "<group>"; };
+		30E3F9DE1F16BDE800933367 /* Foto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +67,15 @@
 		30E3F9BF1F16BBD200933367 /* InstaKILO */ = {
 			isa = PBXGroup;
 			children = (
-				30E3F9C31F16BBD200933367 /* AppDelegate.h */,
-				30E3F9C41F16BBD200933367 /* AppDelegate.m */,
+				30E3F9C91F16BBD200933367 /* Main.storyboard */,
+				30E3F9D71F16BD6900933367 /* DetailViewController.h */,
+				30E3F9D81F16BD6900933367 /* DetailViewController.m */,
+				30E3F9DA1F16BDD000933367 /* FotoViewCell.h */,
+				30E3F9DB1F16BDD000933367 /* FotoViewCell.m */,
 				30E3F9C61F16BBD200933367 /* ViewController.h */,
 				30E3F9C71F16BBD200933367 /* ViewController.m */,
-				30E3F9C91F16BBD200933367 /* Main.storyboard */,
-				30E3F9CC1F16BBD200933367 /* Assets.xcassets */,
-				30E3F9CE1F16BBD200933367 /* LaunchScreen.storyboard */,
-				30E3F9D11F16BBD200933367 /* Info.plist */,
+				30E3F9DD1F16BDE800933367 /* Foto.h */,
+				30E3F9DE1F16BDE800933367 /* Foto.m */,
 				30E3F9C01F16BBD200933367 /* Supporting Files */,
 			);
 			path = InstaKILO;
@@ -74,6 +84,11 @@
 		30E3F9C01F16BBD200933367 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				30E3F9C31F16BBD200933367 /* AppDelegate.h */,
+				30E3F9C41F16BBD200933367 /* AppDelegate.m */,
+				30E3F9CC1F16BBD200933367 /* Assets.xcassets */,
+				30E3F9CE1F16BBD200933367 /* LaunchScreen.storyboard */,
+				30E3F9D11F16BBD200933367 /* Info.plist */,
 				30E3F9C11F16BBD200933367 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -154,6 +169,9 @@
 				30E3F9C81F16BBD200933367 /* ViewController.m in Sources */,
 				30E3F9C51F16BBD200933367 /* AppDelegate.m in Sources */,
 				30E3F9C21F16BBD200933367 /* main.m in Sources */,
+				30E3F9DF1F16BDE800933367 /* Foto.m in Sources */,
+				30E3F9DC1F16BDD000933367 /* FotoViewCell.m in Sources */,
+				30E3F9D91F16BD6A00933367 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
